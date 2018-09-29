@@ -4,5 +4,5 @@ setup(
     name ="APIfirebase",
     version ="1.0",
     packages= find_packages(),
-    install_requires = ['requests', 'pandas','numpy','bs4','app'],
+    install_requires = ['requests','numpy','bs4','app'],
 )
