@@ -25,7 +25,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 # Fetch the service account key JSON file contents
-cred = credentials.Certificate('realace2018-firebase-adminsdk-r7gk1-121be5edaf.json')
+cred = credentials.Certificate(open('realace2018-firebase-adminsdk-r7gk1-121be5edaf.json').read())
 
 # Initialize the app with a service account, granting admin privileges
 app=firebase_admin.initialize_app(cred, {
